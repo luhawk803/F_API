@@ -28,3 +28,7 @@ autoreconf: automake failed with exit status: 1
 
 
   sudo apt-get install libtool
+
+
+# headless IB
+  http://www.thealgoengineer.com/2014/ib-headless/
