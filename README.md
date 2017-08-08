@@ -32,3 +32,7 @@ autoreconf: automake failed with exit status: 1
 
 # headless IB
   http://www.thealgoengineer.com/2014/ib-headless/
+
+
+# multicast
+socat -d -d -d -d - udp-datagram:239.255.1.2:30002,bind=:30002,ip-add-membership=239.255.1.2:eno1
